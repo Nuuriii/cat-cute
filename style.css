@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100%;
+   background-color: rgb(185, 228, 228);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5% 4%;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   background-color: aqua;
+   height: 100%;
+   padding: 3% 7%;
+   border-radius: 10px;
+}
+
+.container .box1 {
+   /* background-color: black;
+   color: white; */
+   display: flex;
+   padding: 2%;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+
+.box1 img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 10rem;
+   width: 15rem;
+}
+
+.container .box2 {
+   background-color: rgb(9, 46, 37);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 4% 2%;
+   gap: 10px;
+   text-align: center;
+   justify-items: center;
+   align-items: center;
+   border-radius: 10px;
+}
+
+.container p {
+   text-align: center;
+}
+
+.container .box-container {
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   margin-top: 10vh;
+}
+
+.container .box3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container .box3 button {
+   background-color: rgb(245, 124, 12);
+   color: white;
+   padding: 10px 11px;
+   border-radius: 5px;
+}
+
+.container .box3 button:hover {
+   background-color: rgb(233, 150, 33);
+   box-shadow: 1px 2px 0 rgb(5, 3, 0);
+}
+
+.container .box4 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container .box4 button {
+   background-color: rgb(246, 123, 8);
+   color: white;
+   padding: 10px 13px;
+   border-radius: 5px;
+}
+
+.container .box4 button:hover {
+   background-color: rgb(233, 150, 33);
+   box-shadow: 1px 2px 0 rgb(5, 3, 0);
+}
